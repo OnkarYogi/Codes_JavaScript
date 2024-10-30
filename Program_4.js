@@ -1,13 +1,22 @@
-// Try to add a new key to the const object in  Problem 3 . Were you able to do it ?
+// Primitive datatypes in JS
+
+let a = 12 // Integer datatype
+let b = null // null datatype
+let c = true // boolean datatype
+let d = BigInt("6732") // BigInt datatype
+let e = "Onkar" // string datatype
+let f = Symbol("I am a symbol") // Symbol datatype
+let g = undefined // JS variables are by default 'undefined' 
+
+console.log(a,b,c,d,e,f,g)
+console.log(typeof d) // 'typeof' keyword is used to get the datatype of variable
 
 const obj = {
-    name:"Onkar",
-    PRN:1032220116
+    45:145,
+    "Shreyas":24545,
+    "Ishaan":78327
 }
 
-// obj = 19
-obj["friend"] = "Shreyas" 
-console.log(obj)
+console.log(obj[45]) // Values can be accessed using the '[]' operator
 
-/* Note : 'const' keyword makes the reference(variable) of the content uneditable , however it is still 
-   possible to edit/add the content by accessing its members instead of accessing it */
+// Objects in JS are like dictionaries which have a pair of keys and values 

@@ -1,7 +1,7 @@
-// Use typeof operator to find the datatype of string in the last question
+var v = 10 // 'v' contains an integer literal
+console.log("The conent inside variable 'v' is : ",v)
+v = "Onkar" // 'v' now contains a string literal
+console.log("The conent inside variable 'v' is : ",v)
 
-let a = "Onkar"
-let b = 170806
-
-console.log("The sum is : ",a+b)
-console.log("The type of result is : ",typeof (a+b))
+/* JavaScipt is a 'Dynamically-Typed Language' which allows the conent of variables to be changed during 
+   runtime as demonstrated above */
