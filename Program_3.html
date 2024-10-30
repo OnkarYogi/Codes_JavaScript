@@ -1,0 +1,26 @@
+<!-- Write a program to print "try again" until user enters the correct number  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_3-3</title>
+</head>
+<body>
+    <script>
+        const correct_num = 17
+
+        do
+        {
+            let num = parseInt(prompt("Enter a number : "))
+            if(correct_num == num)
+            {
+                break
+            }
+            console.log("try again")
+        }while(true)
+
+    </script>
+</body>
+</html>
