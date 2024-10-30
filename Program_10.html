@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_10</title>
+</head>
+<body>
+    <script>
+        let num = prompt("Enter a number : ")
+        num = Number.parseInt(num)
+
+        let sum = 0
+        let i = 1
+
+        while(i<=num) // executes until the condition becomes false
+        {
+            sum += i
+            i++
+        }
+        console.log("The sum of natural numbers is : ",sum)
+
+        // let j = 1000 // do-while loop will execute only once as the condition is false
+        
+        let sum_dowhile = 0
+        let j = 1
+
+        do
+        {
+            sum_dowhile += j
+            j++
+        }while(j<=num) // exectues the 'do' block first and then checks the validity of the condition
+        console.log("The sum of natural numbers is : ",sum_dowhile)
+
+    </script>
+</body>
+</html>

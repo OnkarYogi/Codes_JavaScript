@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_9</title>
+</head>
+<body>
+    <script>
+        let num = prompt("Enter a number : ")
+        num = Number.parseInt(num)
+        let sum = 0 
+
+        for(let i = 1; i <= num; i++) // used to perform an action specific number of times
+        {
+             console.log(i)
+             sum += i
+        }
+
+        console.log("The sum of natural numbers is : ",sum)
+
+        const marks = {
+            "Rohan":99,
+            "Shubham":19,
+            "Siddhesh":81
+        }
+
+        for(const mark in marks) // used to iterate through conatiners like objects,arrays etc
+        {
+            console.log("The marks of ",mark," is : ",marks[mark])
+        }
+
+        /* for(let mark of marks) // can't work with objects since they are not iterable
+        {
+            console.log("The marks of ",mark," is : ",marks[mark])
+        } */
+
+        for (let char of "Onkar") // used to iterate through a string or an array
+        {
+            console.log(char)
+        }
+    </script>
+</body>
+</html>

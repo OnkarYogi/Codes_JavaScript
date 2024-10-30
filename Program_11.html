@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program_11</title>
+</head>
+<body>
+    <script>
+        function factorial(num)
+        {
+            let fact = 1
+            for(let i=1;i<=num;i++)
+            {
+                fact *= i
+            }
+
+            return fact
+        } 
+
+        /* const factorial = (num)=>{  // modern syntax for defining functions in JavaScript
+            let fact = 1
+            for(let i=1;i<=num;i++)
+            {
+                fact *= i
+            }
+
+            return fact
+        } */ 
+
+        const num1 = 8
+        const num2 = 11
+        const num3 = 5
+
+        console.log("The factorial of ",num1," is : ",factorial(num1)) // calling function
+        console.log("The factorial of ",num2," is : ",factorial(num2)) // calling function
+        console.log("The factorial of ",num3," is : ",factorial(num3)) // calling function
+    </script>
+</body>
+</html>
